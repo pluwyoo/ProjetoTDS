@@ -25,7 +25,7 @@
 1. *Instale o Laragon*: Baixe e instale o Laragon para configurar o ambiente de servidor local.
 2. *Clone este repositório*:
    bash
-   git clone *<https://github.com/typrBraian/ProjetoTDS.git>*
+   git clone *<https://github.com/pluwyoo/ProjetoTDS.git>*
 
 3. *Coloque o projeto na pasta www do Laragon*.
 4. *Inicie o Laragon* e os serviços Apache e MySQL.
