@@ -1,0 +1,536 @@
+@font-face{
+  font-family: MinhaFonte;
+  src: url('fonts/Gotica.ttf') format('truetype');
+ } /*USAREI DEPOIS, Pois tenho que ver com a turma sobre a fonte do site se será normal ou uma personalizada  */
+:root { 
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/backgroundOFC.png);
+    background-color: #BEB8FF;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: MinhaFonte, sans-serif;
+    font-size: 20px; /* Tamanho base da fonte */
+    font-weight: 600; /* Peso da fonte, 600 é considerado bold (negrito) */
+}
+
+h2 {
+  font-size: 30px;
+}
+
+  header {
+    color: #E9E7C6;
+    text-align: center;
+    padding: 19px ;
+    position: relative;
+    height: 71px; /* Altura aumentada para ilustração */
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin-left: -71px;
+  }
+
+  /*Logo*/
+  .logo {
+    display: inline-block;
+    max-width: 240%; /* Para garantir que o logotipo não estique */
+    max-height: 170%; /* Para garantir que o logotipo não estique */
+    margin-top: 50px;
+    margin-left: 71px;
+  }
+  .container {
+    width: 300px;
+    margin: 100px auto; /* centraliza vertical e horizontalmente */
+    background-color: #fff;
+    background-position: center; /* Centraliza a imagem de fundo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50; /* altura mínima igual à altura da tela */
+}
+
+.container h2 {
+    text-align: center; /* Centraliza o título */
+    
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.container .btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+}
+
+.container .btn {
+    flex-basis: 48%; /* Define a largura de cada botão */
+    padding: 8px; /* Ajusta o tamanho do botão */
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .btn:hover {
+    background-color: #0056b3;
+}
+  
+  .section{
+    padding: 5px;
+    margin-top: 10px; /* Espaço para a barra de navegação */
+  }
+  /* Estilos CSS para o ícone do Instagram */
+  .instagram-icon {
+    width: 55px;
+    height: 45px;
+    margin: 0 10px;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+/* Formulário Login */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* CADASTRO */
+.container {
+  width: 300px;
+  margin: 100px auto;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px; /* Arredondando os cantos */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="submit"],
+.container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 25px; /* Arredondando os cantos */
+  border: 1px solid #ccc;
+}
+
+.container .btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; /* Arredondando os cantos */
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container .btn:hover {
+  background-color: #0056b3;
+}
+.section{
+  text-align: center;
+}
+
+header2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header2 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff
+}
+
+
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5vw;
+  padding: 0 5vw;
+}
+
+.gallery-items {
+  width: 230px;
+  height: 320px;
+}
+
+.gallery-items img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+
+
+}
+
+.gallery-items:hover {
+  transform: scale(1.2);
+
+}
+
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: var(--color-neutral-10);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+  margin-bottom: 0.45rem;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+  font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover {
+  opacity: 0.8;
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+  background-color: #4267b3;
+}
+
+#whatsapp {
+  background-color: #25d366;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: var(--color-neutral-30);
+  transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+  color: #7f37c9;
+}
+
+#footer_subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#footer_subscribe p {
+  color: var(--color-neutral-30);
+}
+
+#input_group {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-neutral-0);
+  border-radius: 4px;
+}
+
+#input_group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+#input_group button {
+  background-color: #7f37c9;
+  border: none;
+  color: var(--color-neutral-40);
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#input_group button:hover {
+  opacity: 0.8;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 720px) {
+  #footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+}
+
+.container2 {
+  position: relative;
+  min-height: 100vh;
+}
+
+.container2 h1 {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 90px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+.container2 .video-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 58px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container2 .video-container2 .video {
+  height: 350px;
+  width: 550px;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.container2 .video-container2 .video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+
+.container2 .video-container2 .video:hover video {
+  transform: scale(1.2);
+}
+
+.container2 .popup-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, .8);
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 .popup-video video {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  object-fit: contain; /* Ajusta o vídeo sem cortar e mantém a proporção */
+}
+
+.container2 .popup-video span {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bolder;
+  z-index: 100;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .container2 .popup-video video {
+    width: 95%;
+  }
+}
+
+
+/*FIM CSS VIDEOS  */
+
+header2 {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header2 h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 0 2vw;
+}
+
+.gallery-items {
+  width: 350px;
+  height: 470px;
+  border: 27px solid #fff;
+  box-shadow: 7px 7px 7px rgba(140, 0, 255, 0.4);
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+.gallery-items img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+
+
+}
+
+.gallery-items:hover {
+  transform: scale(1.02);
+
+}
+
+/* Estilo da navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; /* Cor de fundo preta */
+  padding: 10px 0;
+  position: sticky;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Estilo dos links */
+.navbar a {
+  color: #ffdbff; /* Cor roxa para os links */
+  text-decoration: none;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+  margin-left: 100px;
+}
+
+/* Efeito de hover nos links */
+.navbar a:hover {
+  background-color: rgba(138, 43, 226, 0.2); /* Cor roxa suave para o hover */
+  color: #fff; /* Muda o texto para branco no hover */
+  transform: scale(1.1); /* Efeito de zoom */
+}
+
+/* Ajustes de foco para melhorar acessibilidade */
+.navbar a:focus {
+  outline: 2px solid #8a2be2; /* Borda roxa no foco */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .navbar a {
+      margin: 10px 0;
+      font-size: 20px;
+      padding: 15px;
+  }
+}

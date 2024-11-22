@@ -1,0 +1,164 @@
+@font-face{
+    font-family: MinhaFonte;
+    src: url('fonts/Gotica.ttf') format('truetype');
+   } /*USAREI DEPOIS, Pois tenho que ver com a turma sobre a fonte do site se será normal ou uma personalizada  */
+  :root { 
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+  
+  }
+  
+  
+  body {
+      margin: 0;
+      padding: 0;
+      background-image: url(/img/backgroundOFC.png);
+      background-color: #BEB8FF;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: MinhaFonte, sans-serif;
+      font-size: 20px; /* Tamanho base da fonte */
+      font-weight: 600; /* Peso da fonte, 600 é considerado bold (negrito) */
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+    header {
+      color: #E9E7C6;
+      text-align: center;
+      padding: 19px;
+      position: relative;
+      height: 71px; /* Altura aumentada para ilustração */
+      display: flex;
+      align-items: center;  
+      justify-content: center;
+      margin-left: -71px;
+    }
+  
+    /*Logo*/
+    .logo {
+      display: inline-block;
+      max-width: 240%; /* Para garantir que o logotipo não estique */
+      max-height: 170%; /* Para garantir que o logotipo não estique */
+      margin-top: 50px;
+      margin-left: 71px;
+    }
+    .container {
+      width: 300px;
+      margin: 100px auto; /* centraliza vertical e horizontalmente */
+      background-color: #fff;
+      background-position: center; /* Centraliza a imagem de fundo */
+      padding: 20px;
+      border-radius: 25px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 50; /* altura mínima igual à altura da tela */
+      }
+      
+      .container::before {
+        content: "";
+        position: absolute;
+        top: 10px; /* Ajuste a posição conforme necessário */
+        left: 5px; /* Ajuste a posição conforme necessário */
+        width: 150px; /* Tamanho maior da imagem */
+        height: 150px; /* Tamanho maior da imagem */
+        background-size: contain; /* Ajusta a imagem para caber dentro do tamanho definido */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+        background-position: center; /* Centraliza a imagem dentro do espaço definido */
+      }
+  
+  .container h2 {
+      text-align: center; /* Centraliza o título */
+      
+  }
+  
+  .container input[type="text"],
+  .container input[type="password"],
+  .container input[type="submit"],
+  .container input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+  }
+  
+  .container .btn-group {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .container .btn {
+      flex-basis: 48%; /* Define a largura de cada botão */
+      padding: 8px; /* Ajusta o tamanho do botão */
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  .container .btn:hover {
+      background-color: #0056b3;
+  }
+    .navbar {
+      overflow: hidden;
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      margin-left: 71px;
+    }
+    .navbar a {
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .section{
+      padding: 5px;
+      margin-top: 10px; /* Espaço para a barra de navegação */
+    }
+    /* Estilos CSS para o ícone do Instagram */
+    .instagram-icon {
+      width: 55px;
+      height: 45px;
+      margin: 0 10px;
+      display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    }
+  /* Formulário Login */
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  input[type="nome"],
+  input[type="turma"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
