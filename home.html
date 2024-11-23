@@ -11,49 +11,62 @@
   <link rel="icon" href="/img/LOGO303T.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
    <style>
-    body{
-      background-image: url(img/backgroundOFC.png);
-      background-size: cover;
-      background-attachment: fixed;
-    }
-  
+  body {
+    background-image: url(img/backgroundOFC.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 a {
-text-decoration: none;
-/* Remove o sublinhado */
-outline: none;
-/* Remove a linha azul de foco */
-color: black;
-/* Define a cor do texto */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    outline: none;
+    /* Remove a linha azul de foco */
+    color: black;
+    /* Define a cor do texto */
 }
 
 a p {
-margin: 0;
-font-size: 19px;
+    margin: 0;
+    font-size: 19px;
 }
 
 a:active,
 a:focus {
-outline: none;
-
+    outline: none;
 }
-h1{
- font-family: MinhaFonte, sans-serif;
+
+h1 {
+    font-family: MinhaFonte, sans-serif;
 }
 
 /* Estilo da navbar */
 .navbar {
     display: flex;
+    flex-direction: center; /* Alinha os itens em coluna */
     justify-content: center;
     align-items: center;
-    background-color: transparent; /* Cor de fundo preta */
-    padding: 10px 0;
+    background-color: transparent;
+    padding: 20px 0;
     position: sticky;
     width: 100%;
     z-index: 1000;
 }
 
+/* Logo */
+.navbar .logo {
+    margin-bottom: 20px; /* Espaçamento entre a logo e os links */
+}
+
 /* Estilo dos links */
+.navbar .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Alinha os links na horizontal */
+    flex-wrap: wrap;
+}
+
 .navbar a {
     color: #ffdbff; /* Cor roxa para os links */
     text-decoration: none;
@@ -62,12 +75,14 @@ h1{
     font-weight: bold;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
-    margin-left: 100px;
+    margin-left: 30px;
+    margin-right: 60px; /* Ajuste de espaçamento entre os links */
 }
 
 /* Efeito de hover nos links */
 .navbar a:hover {
-    background-color: rgba(138, 43, 226, 0.2); /* Cor roxa suave para o hover */
+    background-color: rgba(138, 43, 226, 0.2);
+    /* Cor roxa suave para o hover */
     color: #fff; /* Muda o texto para branco no hover */
     transform: scale(1.1); /* Efeito de zoom */
 }
@@ -79,8 +94,8 @@ h1{
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
+    .navbar .links {
+        flex-direction: column; /* Alinha os links em coluna para telas menores */
     }
 
     .navbar a {
@@ -131,7 +146,7 @@ h1{
         <input type="radio" name="images" value="Monstera" checked>
       </label>
 
-      <label style="--_img: url(img/Camisas.png)">
+      <label style="--_img: url(img/camisas.png)">
         <input type="radio" name="images" value="Pothos">
       </label>
 
@@ -347,10 +362,10 @@ h1{
           <h3>Professores Regentes</h3>
         </li>
         <li>
-          <a href="Rafael.html" class="footer-link">Rafael Felisbino Vitoretti</a>
+          <a href="Rafael.php" class="footer-link">Rafael Felisbino Vitoretti</a>
         </li>
         <li>
-          <a href="Eduardo.html" class="footer-link">Eduardo Biela</a>
+          <a href="Eduardo.php" class="footer-link">Eduardo Biela</a>
         </li>
       </ul>
 
