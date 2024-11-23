@@ -507,7 +507,8 @@ header2 h1 {
   font-weight: bold;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
-  margin-left: 100px;
+  margin-left: 30px;
+  margin-right: 60px; /* Ajuste de espaçamento entre os links */
 }
 
 /* Efeito de hover nos links */
