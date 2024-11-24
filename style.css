@@ -178,20 +178,20 @@ input[type="submit"]:hover {
 .section{
   text-align: center;
 }
-
-header2 {
+.header-section {
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header2 h1 {
+.header-section h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
   font-weight: 900;
   color: #ffffff
 }
+
 
 
 
@@ -441,20 +441,6 @@ footer {
 
 
 /*FIM CSS VIDEOS  */
-
-header2 {
-  height: 125px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header2 h1 {
-  font-family: 'Arial', sans-serif;
-  font-size: 3rem;
-  font-weight: 900;
-  color: #ffffff
-}
 
 .gallery-container {
   display: flex;

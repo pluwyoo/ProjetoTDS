@@ -1,0 +1,43 @@
+<!-- Carrossel de imagens de alunos -->
+<div class="section" id="alunos">
+    <header2 id="seção fotos">
+        <h1>Alunos</h1>
+    </header2>
+    <center>
+        <main>
+            <div class="field-sec" id="carrossel-container">
+                <label class="aluno-img" style="background-image: url(img/fernanda.png)">
+                    <input type="radio" name="images" value="Fiddle Leaf">
+                </label>
+                <label class="aluno-img" style="background-image: url(img/shelby.png)">
+                    <input type="radio" name="images" value="Pink Princess">
+                </label>
+                <label class="aluno-img" style="background-image: url(img/polaco.png)">
+                    <input type="radio" name="images" value="Monstera" checked>
+                </label>
+                <label class="aluno-img" style="background-image: url(img/Balu.png)">
+                    <input type="radio" name="images" value="Pothos">
+                </label>
+                <label class="aluno-img" style="background-image: url(img/Diego.png)">
+                    <input type="radio" name="images" value="Rubber Tree">
+                </label>
+            </div>
+            <button class="prev" onclick="moveCarrossel(-1)">&#10094;</button>
+            <button class="next" onclick="moveCarrossel(1)">&#10095;</button>
+        </main>
+    </center>
+</div>
+
+<script>
+// Função para mover o carrossel
+let currentIndex = 0;
+
+function moveCarrossel(direction) {
+    const carrosselContainer = document.getElementById('carrossel-container');
+    const totalImages = carrosselContainer.children.length;
+    currentIndex = (currentIndex + direction + totalImages) % totalImages; // Ajusta para o próximo índice
+
+    // Move o carrossel para a posição correta
+    carrosselContainer.style.transform = `translateX(-${currentIndex * 170}px)`; // 170px é a largura das imagens com o espaço
+}
+</script>
