@@ -117,7 +117,7 @@ db()->close();
     <div class="container3">
       <div>
         <button type="submit" name="login" value="Login" class="log" style="margin-bottom: 10px">Login</button>
-        <button onclick="window.location.href='cadastro.html'" class="reg">Cadastrar</button>
+        <button onclick="window.location.href='cadastro.php'" class="reg">Cadastrar</button>
       </div>
     </div>
 </div>
@@ -125,13 +125,13 @@ db()->close();
   // Adiciona um evento de clique ao botão de login
   document.getElementById('log').addEventListener('click', function () {
     // Redireciona para a página home.php
-    window.location.href = 'home.html';
+    window.location.href = 'home.php';
   });
 
   // Adiciona um evento de clique ao botão de registro
   document.getElementById('registerBtn').addEventListener('click', function () {
     // Redireciona para a página home.php
-    window.location.href = 'cadastro.html';
+    window.location.href = 'cadastro.php';
   });
 </script>
 
