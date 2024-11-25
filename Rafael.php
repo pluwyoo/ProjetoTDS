@@ -11,7 +11,7 @@
   <link rel="icon" href="img/LOGO303T.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
    <style>
-    body{
+    body {
     background-image: url(img/backgroundOFC.png);
     background-size: cover;
     background-attachment: fixed;
@@ -112,27 +112,27 @@ h1 {
   </header>
   <div class="navbar">
   <a style="opacity: 0%;">.</a>
-  <a href="fotos.html" class="nav-link">Fotos</a>
-  <a href="videos.html" class="nav-link">Vídeos</a>
-  <a href="home.html" class="nav-link">Trabalhos</a>
-  <a href="home.html#alunos" class="nav-link">Alunos</a>
-  <a href="home.html#professores" class="nav-link">Professores</a>
+  <a href="fotos.php" class="nav-link">Fotos</a>
+  <a href="videos.php" class="nav-link">Vídeos</a>
+  <a href="home.php" class="nav-link">Trabalhos</a>
+  <a href="home.php#alunos" class="nav-link">Alunos</a>
+  <a href="home.php#professores" class="nav-link">Professores</a>
   <span style="opacity: 0%;">.......</span>
 </div>
 
-<div class="header-section" id="seção-fotos">
-  <h1>Eduardo Biela</h1>
-</div>
+<header2 id="seção fotos">
+    <h1>Rafael Felisbino Vitoretti</h1>
+  </header2>
 
 <center>
 <main>
     <div class="gallery-container">
 
-      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="">
-        <img src="img/INF.png">
+      <a href="img/professor.png" class="gallery-items" data-lightbox="models" data-title="Rafael das Selfies ">
+        <img src="img/professor.png">
 
         <p>
-          
+          Rafael Das Selfies
           <p></p>
         </p>
         </p>
@@ -140,11 +140,11 @@ h1 {
       </a>
 
 
-      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="">
-        <img src="img/INF.png">
+      <a href="img/rafael.png" class="gallery-items" data-lightbox="models" data-title="Rafael Cute ">
+        <img src="img/rafael.png">
 
         <p>
-          
+          Rafael Cute
           <p></p>
           
         </p>
@@ -153,8 +153,8 @@ h1 {
 
       </a>
 
-      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="A adicionar fotos">
-        <img src="img/INF.png">
+      <a href="img/" class="gallery-items" data-lightbox="models" data-title="A adicionar fotos">
+        <img src="img/">
 
         <p>
         A adicionar fotos
@@ -166,8 +166,8 @@ h1 {
 
       </a>
 
-      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="A adicionar fotos ">
-        <img src="img/INF.png">
+      <a href="img/" class="gallery-items" data-lightbox="models" data-title="A adicionar fotos ">
+        <img src="img/">
 
         <p>
           A adicionar fotos
@@ -201,10 +201,10 @@ h1 {
           <h3>Professores Regentes</h3>
         </li>
         <li>
-          <a href="Rafael.html" class="footer-link">Rafael Felisbino Vitoretti</a>
+          <a href="Rafael.php" class="footer-link">Rafael Felisbino Vitoretti</a>
         </li>
         <li>
-        <a href="Eduardo.html" class="footer-link">Eduardo Biela</a>
+        <a href="Eduardo.php" class="footer-link">Eduardo Biela</a>
         </li>
       </ul>
 
@@ -213,13 +213,13 @@ h1 {
           <h3>Informações</h3>
         </li>
         <li>
-          <a href="home.html" class="footer-link">Professores</a>
+          <a href="home.php" class="footer-link">Professores</a>
         </li>
         <li>
-          <a href="home.html" class="footer-link">Alunos</a>
+          <a href="home.php" class="footer-link">Alunos</a>
         </li>
         <li>
-          <a href="fotos.html" class="footer-link">Fotos</a>
+          <a href="fotos.php" class="footer-link">Fotos</a>
         </li>
       </ul>
       <div>

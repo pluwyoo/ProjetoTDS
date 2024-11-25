@@ -11,7 +11,7 @@
   <link rel="icon" href="img/LOGO303T.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
    <style>
-  body {
+    body{
     background-image: url(img/backgroundOFC.png);
     background-size: cover;
     background-attachment: fixed;
@@ -105,243 +105,81 @@ h1 {
     }
 }
 
-
-
 </style>
-</head>
 <body>
   <header>
     <img src="img/logoterceirao3.png" alt="memorias" class="logo">
   </header>
   <div class="navbar">
   <a style="opacity: 0%;">.</a>
-  <a href="fotos.html" class="nav-link">Fotos</a>
-  <a href="videos.html" class="nav-link">Vídeos</a>
-  <a href="#trabalhos" class="nav-link">Trabalhos</a>
-  <a href="#alunos" class="nav-link">Alunos</a>
-  <a href="#professores" class="nav-link">Professores</a>
+  <a href="fotos.php" class="nav-link">Fotos</a>
+  <a href="videos.php" class="nav-link">Vídeos</a>
+  <a href="home.php" class="nav-link">Trabalhos</a>
+  <a href="home.php#alunos" class="nav-link">Alunos</a>
+  <a href="home.php#professores" class="nav-link">Professores</a>
   <span style="opacity: 0%;">.......</span>
 </div>
 
-<div class="section" id="trabalhos">
+<header2 id="seção fotos">
+    <h1>Eduardo Biela</h1>
+  </header2>
 
-  <div class="header-section" id="seção-fotos">
-    <h1>Trabalhos</h1>
-</div>
-  <!-- Conteúdo da seção de trabalhos -->
 <center>
-  <div class="field-sec">
+<main>
+    <div class="gallery-container">
 
-    <fieldset>
+      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="">
+        <img src="img/INF.png">
 
-      <label style="--_img: url(img/Memorys.png)">
-        <input type="radio" name="images" value="Fiddle Leaf">
-      </label>
+        <p>
+          
+          <p></p>
+        </p>
+        </p>
 
-      <label style="--_img: url(img/DuartePeloRS.png)">
-        <input type="radio" name="images" value="Pink Princess">
-      </label>
-
-      <label style="--_img: url(img/DuartePeloRS2.png)">
-        <input type="radio" name="images" value="Monstera" checked>
-      </label>
-
-      <label style="--_img: url(img/Camisas.png)">
-        <input type="radio" name="images" value="Pothos">
-      </label>
-
-      <label style="--_img: url(img/f5.jpeg)">
-        <input type="radio" name="images" value="Rubber Tree">
-      </label>
-
-    </fieldset>
-
-  </div>
-
-  <div class="field-sec" style="margin-top: 50px;">
-
-    <fieldset>
-
-      <label style="--_img: url(img/UsGuri.png)">
-        <input type="radio" name="images" value="Fiddle Leaf">
-      </label>
+      </a>
 
 
-    </fieldset>
+      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="">
+        <img src="img/INF.png">
 
-  </div>
-</div>
+        <p>
+          
+          <p></p>
+          
+        </p>
+        </p>
+
+
+      </a>
+
+      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="A adicionar fotos">
+        <img src="img/INF.png">
+
+        <p>
+        A adicionar fotos
+          <p></p>
+          
+        </p>
+        </p>
+
+
+      </a>
+
+      <a href="img/INF.png" class="gallery-items" data-lightbox="models" data-title="A adicionar fotos ">
+        <img src="img/INF.png">
+
+        <p>
+          A adicionar fotos
+          <p></p>
+          
+        </p>
+        </p>
+
+
+      </a>
+      </main>
 </center>
-<div class="section" id="alunos">
- 
-
-  <div class="header-section" id="seção-alunos">
-    <h1>Alunos</h1>
-</div>
-  <center>
-  <main>
-  
-    <div class="field-sec">
-  
-      <fieldset>
-  
-        <label style="--_img: url(img/fernanda.png)">
-          <input type="radio" name="images" value="Fiddle Leaf">
-        </label>
-  
-        <label style="--_img: url(img/shelby.png)">
-          <input type="radio" name="images" value="Pink Princess">
-        </label>
-  
-        <label style="--_img: url(img/polaco.png)">
-          <input type="radio" name="images" value="Monstera" checked>
-        </label>
-  
-        <label style="--_img: url(img/Balu.png)">
-          <input type="radio" name="images" value="Pothos">
-        </label>
-  
-        <label style="--_img: url(img/Diego.png)">
-          <input type="radio" name="images" value="Rubber Tree">
-        </label>
-  
-      </fieldset>
-  
-    </div>
-  
-    <div class="field-sec" style="margin-top: 50px;">
-  
-      <fieldset>
-  
-        <label style="--_img: url(img/Felipe.png)">
-          <input type="radio" name="images" value="Fiddle Leaf">
-        </label>
-  
-        <label style="--_img: url(img/Bigode.png)">
-          <input type="radio" name="images" value="Pink Princess">
-        </label>
-  
-        <label style="--_img: url(img/Cristian.png)">
-          <input type="radio" name="images" value="Monstera" checked>
-        </label>
-  
-        <label style="--_img: url(img/Braian.png)">
-          <input type="radio" name="images" value="Pothos">
-        </label>
-  
-        <label style="--_img: url(img/José.png  )">
-          <input type="radio" name="images" value="Rubber Tree">
-        </label>
-
-
-
-      </fieldset>
-      <fieldset>
-        
-      <label style="--_img: url(img/erika.jpg)">
-          <input type="radio" name="images" value="Rubber Tree">
-        </label>
-        
-      </fieldset>
-  
-    </div>
-  </div>
-  </center>
-
-</div>
-
-<div class="section" id="professores">
-
-  <div class="header-section" id="seção-fotos">
-    <h1>Professores</h1>
-</div>
-  <center>
-    <div class="field-sec">
-  
-      <fieldset>
-  
-        <label style="--_img: url(img/professor.png)">
-          <input type="radio" name="images" value="Fiddle Leaf">
-        </label>
-  
-        <label style="--_img: url(img/CAMILA.png)">
-          <input type="radio" name="images" value="Pink Princess">
-        </label>
-  
-        <label style="--_img: url(img/GUILHERME.png)">
-          <input type="radio" name="images" value="Monstera" checked>
-        </label>
-  
-        <label style="--_img: url(img/JEFFERSON.png)">
-          <input type="radio" name="images" value="Pothos">
-        </label>
-  
-        <label style="--_img: url(img/SOL.png)">
-          <input type="radio" name="images" value="Rubber Tree">
-        </label>
-  
-      </fieldset>
-  
-    </div>
-  
-    <div class="field-sec" style="margin-top: 50px;">
-  
-      <fieldset>
-  
-        <label style="--_img: url(img/MIRELA.png)">
-          <input type="radio" name="images" value="Fiddle Leaf">
-        </label>
-  
-        <label style="--_img: url(img/CRIS.png)">
-          <input type="radio" name="images" value="Pink Princess">
-        </label>
-  
-        <label style="--_img: url(img/ADRIANA.png)">
-          <input type="radio" name="images" value="Monstera" checked>
-        </label>
-  
-        <label style="--_img: url(img/LORENA.jfif)">
-          <input type="radio" name="images" value="Pothos">
-        </label>
-  
-        <label style="--_img: url(img/PORTUGUES.jfif)">
-          <input type="radio" name="images" value="Rubber Tree">
-        </label>
-  
-      </fieldset>
-  
-    </div>
-
-    <div class="field-sec" style="margin-top: 50px;">
-  
-      <fieldset>
-  
-        <label style="--_img: url(img/INF.png)">
-          <input type="radio" name="images" value="Fiddle Leaf">
-        </label>
-  
-        <label style="--_img: url(img/INF.png)">
-          <input type="radio" name="images" value="Pink Princess">
-        </label>
-  
-        <label style="--_img: url(img/INF.png)">
-          <input type="radio" name="images" value="Monstera" checked>
-        </label>
-  
-        <label style="--_img: url(img/INF.png)">
-          <input type="radio" name="images" value="Pothos">
-        </label>
-  
-        <label style="--_img: url(img/INF.png)">
-          <input type="radio" name="images" value="Rubber Tree">
-        </label>
-  
-      </fieldset>
-  
-    </div>
-
-  </div>
-  </center>
 
 
 <footer>
@@ -355,6 +193,7 @@ h1 {
     <i class="fa-brands fa-instagram" style="font-size: 32px;"></i>
   </a>
 </div>
+
       </div>
 
       <ul class="footer-list">
@@ -362,10 +201,10 @@ h1 {
           <h3>Professores Regentes</h3>
         </li>
         <li>
-          <a href="Rafael.html" class="footer-link">Rafael Felisbino Vitoretti</a>
+          <a href="Rafael.php" class="footer-link">Rafael Felisbino Vitoretti</a>
         </li>
         <li>
-          <a href="Eduardo.html" class="footer-link">Eduardo Biela</a>
+        <a href="Eduardo.php" class="footer-link">Eduardo Biela</a>
         </li>
       </ul>
 
@@ -374,26 +213,29 @@ h1 {
           <h3>Informações</h3>
         </li>
         <li>
-          <a href="#professores" class="footer-link">Professores</a>
+          <a href="home.php" class="footer-link">Professores</a>
         </li>
         <li>
-          <a href="#alunos" class="footer-link">Alunos</a>
+          <a href="home.php" class="footer-link">Alunos</a>
         </li>
         <li>
-          <a href="fotos.html" class="footer-link">Fotos</a>
+          <a href="fotos.php" class="footer-link">Fotos</a>
         </li>
       </ul>
-    <div>
+      <div>
     <img style="margin-top: 20px;   margin-left: -20px; padding: 20px; width: 380px;" src="img/logoterceirao3.png" alt="memorias" class="logo">
     </div>
       </div>
     </div>
-
     <div id="footer_copyright">
       &#169
       2024 Todos os direitos reservados
     </div>
   </footer>
+
+
+
+
 
 <script>
   // Função para rolagem suave ao clicar nos links da barra de navegação
@@ -426,7 +268,8 @@ document.getElementById('inputFileTurma').addEventListener('change', function() 
       turmaFoto.classList.add('turma-foto');
       turmaFoto.innerHTML = `
         <img src="${imgSrc}">
-        <button class="remover-foto-btn">Remover</button>`;
+        <button class="remover-foto-btn">Remover</button>
+      `;
       turmaFotosContainer.appendChild(turmaFoto);
       
       // Adiciona um event listener para o botão de remover
